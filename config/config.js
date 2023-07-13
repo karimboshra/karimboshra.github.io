@@ -26,6 +26,10 @@ export const navigation = {
 			title: "Solar System",
 			link: "/solar",
 		},
+		{
+			title: "Python Projects",
+			link: "/python",
+		},
 	],
 }
 export const intro = {
@@ -64,6 +68,11 @@ export const work = {
 		{
 			title: "Software Development",
 			description: "I create robust applications using Java and C++.",
+			icons: null,
+		},
+		{
+			title: "Python Scripts",
+			description: "I create scripts in Python for small-scale applications and for general automation.",
 			icons: null,
 		}
 	],
@@ -104,6 +113,17 @@ export const projects = {
 				},
 			],
 			weblink: "/solar"
+		},
+		{
+			title: "Various Python Projects",
+			description: "A collection of my various Python projects. Some relate to Artificial Intellige, and some relate to the Automation of various tasks.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "/python",
+				},
+			],
+			weblink: "/python"
 		},
 	],
 }
